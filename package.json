@@ -1,0 +1,27 @@
+{
+  "name": "king-cole",
+  "version": "1.0.0",
+  "description": "Custom WordPress Theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkaminski/king-cole.git"
+  },
+  "keywords": [
+    "WordPress",
+    "Theme",
+    "Bootstrap",
+    "5",
+    "Gulp",
+    "Sass"
+  ],
+  "author": "Ben Kaminski - The DMI Group",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bkaminski/king-cole/issues"
+  },
+  "homepage": "https://github.com/bkaminski/king-cole#readme"
+}
