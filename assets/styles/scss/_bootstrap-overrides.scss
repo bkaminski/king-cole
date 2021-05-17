@@ -1,0 +1,65 @@
+a.nav-link {
+	color: #fff;
+	transition: 0.3s ease-in-out;
+	margin-right: 1.2rem;
+	&:hover {
+		color: #fff;
+		transition: 0.3s ease-in-out;
+		text-decoration: underline;
+	}
+}
+.navbar-nav > .active > a { 
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.btn-green {
+    color: #fff;
+    background-color: #A8AE89;
+    border-color: #FAF7F1;
+    border-radius: 0px;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    &:hover {
+    	color: #31281C;
+    	background-color: #FAF7F1;
+    	border-color: #A8AE89;
+    	transition: 0.3s ease-in-out;
+    }
+}
+.btn-white {
+    color: #31281C;
+    background-color: #FAF7F1;
+    border-color: #A8AE89;
+    border-radius: 0px;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    &:hover {
+    	color: #FAF7F1;
+    	background-color: #A8AE89;
+    	border-color: #FAF7F1;
+    	transition: 0.3s ease-in-out;
+    }
+}
+.kc-navbar {
+	transition: none;
+    transition: 0.4s ease-in-out;
+}
+.kc-navbar-solid a.nav-link {
+    color: #FAF7F1;
+    transition: 0.4s ease-in-out;
+}
+.kc-navbar-solid {
+	background: #31281C;
+	opacity: 0.9;
+	transition: 0.4s ease-in-out;
+}
+.kc-navbar-solid {
+	background: #31281C;
+}
+.kc-navbar-solid a.nav-link {
+	color: #FAF7F1;
+}
+.h1 {
+	font-size: 3rem;
+}

@@ -1,0 +1,62 @@
+html > body.home {
+	background: url('../../../../uploads/new-landing-page-image.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1rem;
+	background: #FAF7F1;
+	color: #31281C;
+}
+h1 {
+	font-size: 3rem;
+}
+.footer {
+	width: 100%;
+	height: 50px;
+	background: #31281C;
+	color: #FAF7F1;
+}
+.home > .footer {
+	display: none;
+}
+.serif-heading {
+	font-family: 'EB Garamond', serif;
+}
+.hero-text {
+	padding-top: 26rem;
+	line-height: 0.9;
+}
+.front-page-text {
+	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+}
+.welcome-img {
+	position: relative;
+	width: 100%;
+	min-height: 750px;
+	background: url('../../../../uploads/guests-dancing.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+.more-button {
+	position: relative;
+	width: 100%;
+}
+.horizon-bar {
+	width: 100%;
+	height: 4px;
+	background: #31281C;
+}
+.gallery {
+	min-height: 200px;
+	width: 100%;
+}
