@@ -9,6 +9,15 @@ $('.dropdown').on('hide.bs.dropdown', function(e) {
 	$(this).find('.dropdown-menu').first().stop(true, true).slideUp();
 });
 
+// Preloader
+	$(window).on('load', function() {
+		setTimeout(function(){
+    		$('#preloader').fadeOut('slow', function () {	
+    		});
+    	}, 2000);
+	});
+
+
 //REMOVE TRANSPARENT HEADER ON SCROLL
 $(function() {
 //caches a jQuery object containing the header element

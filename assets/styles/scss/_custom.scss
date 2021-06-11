@@ -31,6 +31,9 @@ h1 {
 	padding-top: 26rem;
 	line-height: 0.9;
 }
+.hero-text-heading {
+	font-size: 4.5rem;
+}
 .front-page-text {
 	position: absolute;
   	left: 50%;
@@ -47,16 +50,43 @@ h1 {
 	background-size: cover;
 	background-position: center top;
 }
+.about-img {
+	position: relative;
+	width: 100%;
+	min-height: 750px;
+	background: url('../../../../uploads/welcometokingcole.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
 .more-button {
 	position: relative;
 	width: 100%;
 }
 .horizon-bar {
 	width: 100%;
-	height: 4px;
+	height: 3px;
 	background: #31281C;
+}
+.vert-bar {
+	width: 100%;
+	height: 220px;
+	background-image: linear-gradient(#000, #000);
+  	background-size: 3px 100%;
+  	background-repeat: no-repeat;
+  	background-position: center center;
 }
 .gallery {
 	min-height: 200px;
 	width: 100%;
+}
+#preloader {
+	position: fixed;
+	z-index: 999999999999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('../../../../themes/king-cole/assets/img/preloader.gif') 50% 30% no-repeat #FAF7F1;
+	background-clip: padding-box;
 }
