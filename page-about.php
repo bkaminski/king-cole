@@ -8,7 +8,7 @@
  */
 get_header() ;?>
 	<div class="about-img pt-5 pb-5">
-		<div class="hero-text text-center">
+		<div class="hero-text-alt text-center">
 			<p class="text-offwhite serif-heading text-center pb-5 hero-text-heading">Welcome to King Cole Farm</p>
 		</div>
 	</div>
@@ -18,10 +18,10 @@ get_header() ;?>
 
 			<?php echo get_template_part('parts/page', 'about-loop2'); ?>
 
-			<?php echo get_template_part('parts/page', 'our-staff'); ?>
-
 		</div>
+		
+			<?php echo get_template_part('parts/page', 'visit-us'); ?>
+
 	</section>
-	
 	
 <?php get_footer(); ?>

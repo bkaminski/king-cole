@@ -24,7 +24,7 @@ $(function() {
 var header = $(".kc-navbar");
 $(window).scroll(function() {
 	var scroll = $(window).scrollTop();
-	if (scroll >= 450) {
+	if (scroll >= 150) {
 		header.removeClass('kc-navbar').addClass('kc-navbar-solid shadow');
 	} else {
 		header.removeClass("kc-navbar-solid shadow").addClass('kc-navbar');

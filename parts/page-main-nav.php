@@ -5,7 +5,7 @@ echo('');
 	<nav class="navbar navbar-expand-lg fixed-top kc-navbar">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="<?php echo get_home_url(); ?>/welcome-king-cole-farm" >
-				<img src="<?php echo get_home_url(); ?>/wp-content/uploads/brandmark-white.png" alt="King Cole Farms" class="img-fluid" width="55">	
+				<img src="<?php echo get_home_url(); ?>/wp-content/uploads/white.png" alt="King Cole Farms" class="img-fluid" width="55">	
 			</a>
 			<button class="navbar-toggler rounded-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#dmiNav" aria-controls="dmiNav" aria-expanded="false" aria-label="Toggle navigation">
 				<i class="fas fa-bars fa-2x"></i>
