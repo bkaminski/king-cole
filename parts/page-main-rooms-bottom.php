@@ -3,7 +3,7 @@
 					<div class="horizon-bar"></div>
 				</div>
 				<div class="col-md-4">
-					<h3 class="text-center serif-heading h1">Lorem Ipsum</h3>
+					<h3 class="text-center serif-heading h1">Other Amenities</h3>
 				</div>
 				<div class="d-none d-md-block col-md-4 pt-4" style="margin-top:5px;">
 					<div class="horizon-bar"></div>

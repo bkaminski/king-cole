@@ -25,9 +25,14 @@ var header = $(".kc-navbar");
 $(window).scroll(function() {
 	var scroll = $(window).scrollTop();
 	if (scroll >= 150) {
+		//newImageUrl = "http://localhost/king-cole/wp-content/uploads/white.png";
 		header.removeClass('kc-navbar').addClass('kc-navbar-solid shadow');
+		$('.nav-icon').attr('src', 'http://s818516265.onlinehome.us/king-cole/wp-content/uploads/white.png').fadeIn('slow');
+		$('.navbar-toggler').removeClass('brown-text').addClass('text-white');
 	} else {
 		header.removeClass("kc-navbar-solid shadow").addClass('kc-navbar');
+		$('.nav-icon').attr('src', 'http://s818516265.onlinehome.us/king-cole/wp-content/uploads/kc-icon.png').fadeIn('slow');
+		$('.navbar-toggler').removeClass('text-white').addClass('brown-text');
 	}
 });
 });
