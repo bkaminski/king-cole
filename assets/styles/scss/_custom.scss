@@ -1,5 +1,5 @@
 html > body.home {
-	background: url('../../../../uploads/landing-background.jpg') no-repeat center center fixed; 
+	background: url('../../../../uploads/Invitation-Page.png') no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -31,15 +31,14 @@ h1 {
 	color: #31281C;
 }
 .hero-text {
-	padding-top: 26rem;
-	line-height: 0.9;
-}
-.hero-text-alt {
-	padding-top: 18rem;
+	padding-top: 19rem;
 	line-height: 0.9;
 }
 .hero-text-heading {
 	font-size: 4.5rem;
+}
+.text-shadow {
+	text-shadow: 2px 2px #31281C;
 }
 .front-page-text {
 	position: absolute;
@@ -61,7 +60,7 @@ h1 {
 	position: relative;
 	width: 100%;
 	min-height: 750px;
-	background: url('../../../../uploads/welcome-to-kingcole.jpg');
+	background: url('../../../../uploads/Porch-_-Balcony.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center top;
@@ -70,7 +69,7 @@ h1 {
 	position: relative;
 	width: 100%;
 	min-height: 750px;
-	background: url('../../../../uploads/venueproperty.jpg');
+	background: url('../../../../uploads/Overview-Pond.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center top;

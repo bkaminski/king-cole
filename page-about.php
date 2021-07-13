@@ -9,7 +9,7 @@
 get_header() ;?>
 	<div class="about-img pt-5 pb-5">
 		<div class="hero-text-alt text-center">
-			<p class="text-offwhite serif-heading text-center pb-5 hero-text-heading">Welcome to King Cole Farm</p>
+			<p class="text-offwhite serif-heading text-center pb-5 hero-text hero-text-heading text-shadow">Welcome to King Cole Farm</p>
 		</div>
 	</div>
 	<section>
@@ -20,8 +20,7 @@ get_header() ;?>
 
 		</div>
 		
-			<?php echo get_template_part('parts/page', 'visit-us'); ?>
+		<?php echo get_template_part('parts/page', 'visit-us'); ?>
 
 	</section>
-	
 <?php get_footer(); ?>

@@ -11,12 +11,13 @@ get_header() ;?>
 		<div class="hero-text text-center">
 			<p class="text-center text-uppercase text-offwhite fw-bold">Opening Our Doors to</p>
 			<p class="text-offwhite serif-heading text-center pb-5 hero-text-heading">your memorable occasion</p>
-			<a class="btn btn-white px-5 text-uppercase" href="#">Book Now</a>
+			<a class="btn btn-white px-5 text-uppercase" href="booking-your-event">Book Now</a>
 		</div>
 	</div>
 	<section>
 		<div class="container pt-5 pb-5">
 			<?php echo get_template_part('parts/page', 'loop-img-left'); ?>
+			
 		</div>
 	</section>
 	<div class="container pt-5 pb-5">
@@ -36,8 +37,7 @@ get_header() ;?>
 		<?php echo do_shortcode('[envira-gallery id="39"]'); ?>
 
 		<div class="col-md-12 text-center pt-3 pb-5">
-			<a href="#" class="btn btn-white px-5 text-uppercase">View Gallery</a>
+			<a href="booking-your-event" class="btn btn-white px-5 text-uppercase">Book Your Stay</a>
 		</div>
-
 	</div>
 <?php get_footer(); ?>
