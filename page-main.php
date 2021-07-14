@@ -1,6 +1,6 @@
 <?php 
 /**
- * Template Name: Welcome Page
+ * Template Name: page-main.php
  *
  * @package WordPress
  * @subpackage King Cole Farm
@@ -10,7 +10,7 @@ get_header() ;?>
 	<div class="welcome-img pt-5 pb-5">
 		<div class="hero-text text-center">
 			<p class="text-center text-uppercase text-offwhite fw-bold">Opening Our Doors to</p>
-			<p class="text-offwhite serif-heading text-center pb-5 hero-text-heading">your memorable occasion</p>
+			<p class="text-offwhite serif-heading text-center pb-5 hero-text-heading text-shadow">our memorable occasion</p>
 			<a class="btn btn-white px-5 text-uppercase" href="booking-your-event">Book Now</a>
 		</div>
 	</div>
@@ -34,10 +34,10 @@ get_header() ;?>
 		</div>
 	</div>
 	<div class="gallery">
-		<?php echo do_shortcode('[envira-gallery id="39"]'); ?>
+		<?php echo do_shortcode('[envira-gallery id="23"]'); ?>
 
 		<div class="col-md-12 text-center pt-3 pb-5">
-			<a href="booking-your-event" class="btn btn-white px-5 text-uppercase">Book Your Stay</a>
+			<a href="about-us" class="btn btn-white px-5 text-uppercase">More About Us</a>
 		</div>
 	</div>
 <?php get_footer(); ?>

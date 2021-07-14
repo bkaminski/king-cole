@@ -15,10 +15,10 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<figure>
-					<?php the_post_thumbnail( 'full', array( 'class' => 'img-fluid' ) ); ?>
+				<picture>
+					<?php the_post_thumbnail( 'full', array( 'class' => 'img-fluid, brown-border' ) ); ?>
 						
-				</figure>
+				</picture>
 			</div>
 		</div>
 	<?php endwhile; else : ?>

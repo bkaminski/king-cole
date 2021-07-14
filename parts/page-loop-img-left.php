@@ -2,7 +2,7 @@
 		<div class="row">
 			<div class="col-md-6">
 				<picture>
-					<?php the_post_thumbnail( 'full', array( 'class' => 'img-fluid' ) ); ?>
+					<?php the_post_thumbnail( 'full', array( 'class' => 'img-fluid, brown-border' ) ); ?>
 						
 				</picture>
 			</div>

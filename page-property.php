@@ -9,7 +9,7 @@
 get_header() ;?>
 	<div class="venue-img pt-5 pb-5">
 		<div class="hero-text-alt text-center">
-			<p class="text-offwhite serif-heading text-center pb-5 hero-text hero-text-heading">Venue &amp; Property</p>
+			<p class="text-offwhite serif-heading text-center pb-5 hero-text hero-text-heading text-shadow">Venue &amp; Property</p>
 		</div>
 	</div>
 	<section>
