@@ -1,1 +1,1 @@
-<!-- Analytical Tracking Here -->
+<?php echo "<!-- Analytics Tracking Code Here -->"; ?>
