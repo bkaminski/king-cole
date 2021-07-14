@@ -10,7 +10,7 @@ get_header() ;?>
 	<div class="welcome-img pt-5 pb-5">
 		<div class="hero-text text-center">
 			<p class="text-center text-uppercase text-offwhite fw-bold">Opening Our Doors to</p>
-			<p class="text-offwhite serif-heading text-center pb-5 hero-text-heading text-shadow">our memorable occasion</p>
+			<p class="text-offwhite serif-heading text-center pb-5 hero-text-heading text-shadow">your memorable occasion</p>
 			<a class="btn btn-white px-5 text-uppercase" href="booking-your-event">Book Now</a>
 		</div>
 	</div>

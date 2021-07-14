@@ -74,6 +74,23 @@ h1 {
 	background-size: cover;
 	background-position: center top;
 }
+.courtyard-img {
+	position: relative;
+	width: 100%;
+	min-height: 750px;
+	background: url('../../../../uploads/Courtyard-Gardens.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+.property-hero {
+	position: relative;
+	width: 100%;
+	min-height: 750px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
 .more-button {
 	position: relative;
 	width: 100%;
@@ -104,4 +121,10 @@ h1 {
 	height: 100%;
 	background: url('../../../../themes/king-cole/assets/img/preloader.gif') 50% 30% no-repeat #FAF7F1;
 	background-clip: padding-box;
+}
+.brown-border {
+	border:1px solid #31281C;
+}
+.envira-gallery-image {
+	border:1px solid #31281C !important;
 }

@@ -2,7 +2,7 @@
 		<div class="row">
 			<div class="col-md-6">
 				<picture>
-					<?php the_post_thumbnail( 'full', array( 'class' => 'img-fluid, brown-border' ) ); ?>
+					<?php the_post_thumbnail( 'full', array( 'class' => 'img-fluid brown-border' ) ); ?>
 						
 				</picture>
 			</div>
@@ -10,7 +10,7 @@
 				<h1 class="serif-heading"><?php the_title(); ?></h1>
 				<div class="pt-5 pb-5">
 					<?php the_content(); ?>
-				
+						
 				</div>
 				<div class="row">
 					<div class="col-md-4">

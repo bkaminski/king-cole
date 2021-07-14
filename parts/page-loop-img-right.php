@@ -14,9 +14,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 pt-4">
 				<picture>
-					<?php the_post_thumbnail( 'full', array( 'class' => 'img-fluid, brown-border' ) ); ?>
+					<?php the_post_thumbnail( 'full', array( 'class' => 'img-fluid brown-border' ) ); ?>
 						
 				</picture>
 			</div>
