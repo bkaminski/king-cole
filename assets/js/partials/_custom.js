@@ -17,6 +17,7 @@ $('.dropdown').on('hide.bs.dropdown', function(e) {
     	}, 2000);
 	});
 
+$('.about--kc').removeClass('brown-border'); 
 
 //REMOVE TRANSPARENT HEADER ON SCROLL
 $(function() {
