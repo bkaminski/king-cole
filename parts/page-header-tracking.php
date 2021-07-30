@@ -1,1 +1,10 @@
-<?php echo "<!-- Analytics Tracking Code Here -->"; ?>
+<!-- Analytical Tracking Here -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6Y3PC0CQ6Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6Y3PC0CQ6Y');
+</script>

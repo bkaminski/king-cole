@@ -28,8 +28,8 @@ get_header() ;?>
 			<div class="col-md-2">
 				<h2 class="serif-heading italic h1">Gallery</h2>
 			</div>
-			<div class="col-md-4 text-left">
-				<p><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</em></p>
+			<div class="col-md-5 text-left pt-3">
+				<p class="fw-bold"><em>King Cole Farm is the place to create unforgettable memories!</em></p>
 			</div>
 		</div>
 	</div>

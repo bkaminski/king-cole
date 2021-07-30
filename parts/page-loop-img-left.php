@@ -10,7 +10,7 @@
 				<h1 class="serif-heading"><?php the_title(); ?></h1>
 				<div class="pt-5 pb-5">
 					<?php the_content(); ?>
-						
+				
 				</div>
 				<div class="row">
 					<div class="col-md-4">
@@ -25,4 +25,3 @@
 	<?php endwhile; else : ?>
 		<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
 	<?php endif; ?>
-	

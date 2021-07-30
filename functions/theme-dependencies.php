@@ -11,8 +11,9 @@ add_action('wp_enqueue_scripts', 'enqueue_dmi_scripts');
 function enqueue_dmi_styles() {
     wp_enqueue_style('bootstrap-5.0', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css');
     wp_enqueue_style('dmi-styles', get_template_directory_uri() . '/assets/styles/dmiStyles.min.css');
-    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&family=Open+Sans:wght@300&display=swap', array(), null); 
+    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&amp;family=Open+Sans:wght@300&amp;display=swap', array(), null); 
 }
+
 add_action('wp_enqueue_scripts', 'enqueue_dmi_styles');
 
 // Register Custom Navigation Walker

@@ -4,18 +4,18 @@
 				<div class="col-md-12">
 					<div class="row pt-5 pb-5">
 						<?php if (is_page(91) ) { 
-							echo "<div class='d-none d-md-block col-3 pt-3' style='margin-top:5px;'>";
+							echo "<div class='d-none d-md-block col-sm-1 col-md-3 pt-3' style='margin-top:5px;'>";
 						 	} else {
-						 	echo "<div class='d-none d-md-block col-4 pt-4' style='margin-top:5px;'>";
+						 	echo "<div class='d-none d-md-block col-sm-1 col-md-4 pt-4' style='margin-top:5px;'>";
 						 	} ?>
 						 <div class="horizon-bar"></div>
 					</div>
 					<?php if (is_page(91) ) { 
-							echo "<div class='col-6' style='margin-top:-12px;'>";
+							echo "<div class='col-sm-12 col-md-6' style='margin-top:-12px;'>";
 						 	} else {
-						 	echo "<div class='col-4'>";
+						 	echo "<div class='col-sm-12 col-md-4'>";
 						 	} ?>
-						<h3 class="text-center serif-heading h1"><?php the_title(); ?></h3>
+						<h2 class="text-center serif-heading brown-text h1"><?php the_title(); ?></h3>
 					</div>
 					<?php if (is_page(91) ) { 
 							echo "<div class='d-none d-md-block col-3 pt-3 style='margin-top:5px;''>";
@@ -29,11 +29,9 @@
 		</section>
 		<main>
 			<div class="row">
-				<div class="col-md-6 pt-5 pb-5">
-					<div class="pt-5">
-						<?php the_content(); ?>
+				<div class="col-md-6 pt-4 pb-5">
+					<?php the_content(); ?>
 
-					</div>
 				</div>
 				<div class="col-md-6 pt-4">
 					<picture>
